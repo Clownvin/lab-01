@@ -1,101 +1,117 @@
 * {
     outline: 1px solid BLACK;
 }
-
-body {
-    width: 100vw;
-    height: 100vh;
-    max-width: 960px;
-    max-height: 768px;
-    text-align: center;
-    margin: 0 auto;
-}
-
 #a {
-    width: 960px;
-    height: 100px;
+    background-color: red;
 }
 
 #b {
-    width: 200px;  
-    height: 600px;
-    float: left;
+    background-color: blue;
 }
 
-#content {
-    width: 760px;
-    height: 450px;
-    float: right;
-}
-
-article.main {
-    width: 380px;
-    height: 200px;
-    float: left;
-}
-
-article.sub {
-    width: 190px;
-    height: 250px;
-    float: left;
-}
-
-footer {
-    width: 760px;
-    height: 150px;
-    float: left;
-}
-
-@media (max-width: 768px) {
-    #a {
-        width: 480px;
-        height: 75px;
-    }
-    
-    #b {
-        width: 480px;  
-        height: 150px;
-        float: left;
-    }
-    
-    #content {
-        width: 480px;
-        height: 830px;
-        float: right;
-    }
-    
-    article.main {
-        width: 480px;
-        height: 125px;
-        float: left;
-    }
-    
-    article.sub {
-        width: 240px;
-        height: 250px;
-        float: left;
-    }
-    
-    footer {
-        width: 480px;
-        height: 80px;
-        float: left;
-    }
-}
-
-/*
 #p {
-width: %;
-height: %;
+    background-color: yellow;
 }
 
 #d {
-    width: %;
-    height: %;
-    }
+    background-color: green;
+}
 
-#p {
-    width: %;
-    height: %;
-    }
+#e {
+    background-color: orange;
+}
 
+#f {
+    background-color: purple;
+}
+
+#g {
+    background-color: hotpink;
+}
+
+#h {
+    background-color: limegreen;
+}
+
+#i {
+    background-color: cyan;
+}
+
+
+@media (max-width: 480px) {
+    #a {
+        background-color: black;
+    }
+    
+    #b {
+        background-color: white;
+    }
+    
+    #p {
+        background-color: lightblue;
+    }
+    
+    #d {
+        background-color: lightcoral;
+    }
+    
+    #e {
+        background-color: lightslategray;
+    }
+    
+    #f {
+        background-color: gray;
+    }
+    
+    #g {
+        background-color: lightsalmon;
+    }
+    
+    #h {
+        background-color: lightgreen;
+    }
+    
+    #i {
+        background-color: skyblue;
+    }
+    
+}
+
+@media (max-width:768px) {
+    #a {
+        background-color: maroon;
+    }
+    
+    #b {
+        background-color: magenta;
+    }
+    
+    #p {
+        background-color: gold;
+    }
+    
+    #d {
+        background-color: forestgreen;
+    }
+    
+    #e {
+        background-color: violet;
+    }
+    
+    #f {
+        background-color: blueviolet;
+    }
+    
+    #g {
+        background-color: powderblue;
+    }
+    
+    #h {
+        background-color: peru;
+    }
+    
+    #i {
+        background-color: aliceblue;
+    }
+    
+}
