@@ -24,7 +24,7 @@ body {
     grid-column: span 4;
 }
 
-/* tablet */
+/* tablet and mobile */
 @media  (max-width: 768px) {
     body {
         display: grid;
