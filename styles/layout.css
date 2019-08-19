@@ -1,16 +1,26 @@
 body {
     display: grid;
-    grid-template: 13.020833333% 26.041666666% 32.552083333% 19.53125% / 20.833333333% repeat(2, 39.583333333%);
+    grid-template: 14.285714285% 28.571428571% 35.714285714% 21.428571428% / 20.833333333% repeat(4, 19.791666666%);
+    max-width: 960px;
+    max-height: 768px;
+    min-height: 100vh;
     text-align: center;
     margin: 0 auto;
 }
 
 #a {
-    grid-area: 1 / span 3;
+    grid-area: 1 / span 5;
+}
+
+#p, #d {
+    grid-column: span 2;
 }
 
 #b {
     grid-area: span 3 / 1;
+}
+#i {
+    grid-column: span 4;
 }
 
 /* tablet */
